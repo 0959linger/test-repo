@@ -1,5 +1,7 @@
 # 八卦物理推演引擎（Bagua Physics Engine）
 
+[![DOI](https://zenodo.org/badge/1300672486.svg)](https://doi.org/10.5281/zenodo.21362208)
+
 > 让信号通过物理冲刷自然形成沟壑，让答案自然浮现。
 
 ---
