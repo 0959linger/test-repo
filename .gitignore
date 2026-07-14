@@ -1,0 +1,93 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+
+# 大数据文件（需手动下载，见 README）
+data/qwen7b_embed_tokens.npy
+data/emb_256_normed_cache.npy
+finding-order/data/qwen7b_embed_tokens.npy
+
+# 缓存文件
+*.pkl
+*.cache
+*.npy
+
+# 系统
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 日志 / 文本输出
+logs/
+*.log
+*.txt
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+
+# ═══ 旧版本源码（v91/v92/v93 已被 engine_v9 取代）═══
+archives/
+backup_*/
+src/v91_*.py
+src/v92_*.py
+src/v92_hexagram/
+src/v93_*.md
+src/v93_thinking/
+src/v93_physical_divination/
+src/verify_v91_restore.py
+src/vit_vs_v92_analysis.py
+src/wall_erosion_sim.py
+src/attention_design.py
+src/context_interface.py
+src/diag_api.py
+src/diag_model.py
+src/quick_test.py
+src/save_golden.py
+src/save_v92_plugin.py
+src/start_8_servers.py
+src/start_8x05b.bat
+src/start_one.bat
+src/start_single_server.py
+src/p1_causal_chain_results_2026-06-20.md
+src/progress/
+
+# 重复的数据目录
+finding-order/
+
+# ═══ 临时/实验脚本（根目录 + src + engine 非 framework）═══
+/test_*.py
+src/test_*.py
+engine/test_*.py
+scripts/test_*.py
+parse_logprob.py
+run_8_sensors.py
+run_multi_questions.py
+run_real_questions.py
+streaming_signal_demo.py
+super_model_streaming_test.py
+watch_pipeline.py
+README_draft.md
+README_v2.md
+
+# ═══ 引擎内非核心文件 ═══
+engine/_*.py
+engine/tmp_req.json
+engine/mouth_state.json
+
+# ═══ hetu 内测试脚本（非 test_framework）═══
+hetu/test_*.py
+
+# ═══ 旧文档重复 ═══
+ARCHITECTURE_SUMMARY.md
+ARCHITECTURE_VERSIONS.md
+PROJECT_SUMMARY.md
+
+# ═══ 私人 ═══
+memory/
